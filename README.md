@@ -23,12 +23,10 @@ npm install
 Create a .env file in the root directory with the following content:
 
 ```makefile
-GOOGLE_CLIENT_ID=your-google-client-id
-GOOGLE_CLIENT_SECRET=your-google-client-secret
-DEVELOPER_TOKEN=your-google-developer-token
-CUSTOMER_ID=your-google-ads-customer-id
-REFRESH_TOKEN=your-google-ads-refresh-token
-OPENAI_API_KEY=your-openai-api-key
+OPENAI_API_KEY=
+GOOGLE_ADS_CLIENT_ID=
+GOOGLE_ADS_CLIENT_SECRET=
+GOOGLE_ADS_DEVELOPER_TOKEN=
 ```
 
 
