@@ -1,6 +1,6 @@
 require('dotenv').config();
 const { GoogleAdsApi } = require('google-ads-api');
-const OpenAI = require('openai'); // Changed this line
+const OpenAI = require('openai');
 const winston = require('winston');
 
 
