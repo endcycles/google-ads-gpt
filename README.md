@@ -38,7 +38,6 @@ OPENAI_API_KEY=your-openai-api-key
 Run the script with:
 
 ```bash
-Copy code
 node index.js
 ```
 

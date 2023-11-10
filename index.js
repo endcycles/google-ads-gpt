@@ -79,7 +79,7 @@ async function main() {
     try {
         const data = await getGoogleAdsData();
         const suggestions = await getGPTSuggestions(data);
-        logger.info('Suggestions from GPT-3', { suggestions });
+        logger.info('Suggestions from GPT-4', { suggestions });
     } catch (error) {
         logger.error('An error occurred in the main function', { error });
     }
