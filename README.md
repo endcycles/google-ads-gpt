@@ -13,8 +13,8 @@ This project integrates the Google Ads API with OpenAI's GPT-4 to generate campa
 To set up your local development environment:
 
 ```bash
-git clone https://github.com/endcycles/google-ads-openai-integration.git
-cd google-ads-openai-integration
+git clone https://github.com/endcycles/google-ads-gpt.git
+cd google-ads-gpt
 npm install
 ```
 
