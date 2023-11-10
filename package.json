@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/endcycles/google-ads-gpt/issues"
   },
-  "homepage": "https://github.com/endcycles/google-ads-gpt#readme"
+  "homepage": "https://github.com/endcycles/google-ads-gpt#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "google-ads-api": "^14.1.0",
+    "openai": "^4.17.1",
+    "winston": "^3.11.0"
+  }
 }
