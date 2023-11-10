@@ -90,7 +90,7 @@ main();
 // Handle uncaught exceptions and unhandled rejections
 process.on('uncaughtException', (error) => {
     logger.error('Uncaught Exception thrown', { error });
-    process.exit(1); // Ideally, you should attempt a graceful shutdown
+    process.exit(1);
 });
 
 process.on('unhandledRejection', (error, promise) => {
