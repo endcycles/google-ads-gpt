@@ -18,7 +18,7 @@ const logger = winston.createLogger({
                 winston.format.simple()
             ),
         }),
-        // Add file transport for production logs
+        // Add file transport for production logs.
         new winston.transports.File({ filename: 'combined.log' }),
     ],
 });
